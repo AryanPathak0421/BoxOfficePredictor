@@ -5,6 +5,7 @@ import joblib
 # ✅ Import your custom model class
 from predictor import TicketSalesPredictor
 
+
 # Constants
 MODEL_PATH = "ticket_sales_predictor.joblib"
 
