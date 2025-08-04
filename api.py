@@ -13,7 +13,7 @@ MODEL_PATH = "ticket_sales_predictor.joblib"
 app = Flask(__name__)
 
 # ✅ Enable CORS for only your frontend domain
-CORS(app, resources={r"/predict": {"origins": "https://boxofficepredictor.netlify.app"}})
+CORS(app, resources={r"/predict": {"origins": "https://boxofficepredictorplus.netlify.app"}})
 
 # Load the trained model
 try:
